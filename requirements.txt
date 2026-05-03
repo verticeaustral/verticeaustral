@@ -1,0 +1,14 @@
+# ── Vértice Austral — Dependencias ──────────────────────────────────────────
+# Testeado con Python 3.11+
+
+# Interfaz visual
+streamlit>=1.35.0
+
+# Cliente oficial Anthropic SDK
+anthropic>=0.28.0
+
+# Parser de RSS/Atom (maneja encoding, formatos inconsistentes, etc.)
+feedparser>=6.0.11
+
+# Manejo de zonas horarias (stdlib zoneinfo disponible en 3.9+, no requiere pytz)
+# Si usás Python < 3.9: pip install backports.zoneinfo
