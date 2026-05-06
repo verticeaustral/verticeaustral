@@ -1,5 +1,4 @@
-# ── Vértice Austral — Dependencias ──────────────────────────────────────────
-# Testeado con Python 3.11+
+# ── Vértice Austral — Dependencias v4.0 ─────────────────────────────────────
 
 # Interfaz visual
 streamlit>=1.35.0
@@ -7,8 +6,8 @@ streamlit>=1.35.0
 # Cliente oficial Anthropic SDK
 anthropic>=0.28.0
 
-# Parser de RSS/Atom (maneja encoding, formatos inconsistentes, etc.)
+# Parser de RSS/Atom
 feedparser>=6.0.11
 
-# Manejo de zonas horarias (stdlib zoneinfo disponible en 3.9+, no requiere pytz)
-# Si usás Python < 3.9: pip install backports.zoneinfo
+# Cookies persistentes en el navegador (rate limit anti-F5)
+streamlit-cookies-controller>=0.0.4
